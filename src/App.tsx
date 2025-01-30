@@ -1,4 +1,4 @@
-import { LinksContainer, MainContainer } from './assets/styles/pages/Home/Home.style';
+import { LinksContainer, MainContainer } from './styles/pages/Home/Home.style';
 import { Footer } from './components/Footer';
 import { LinkButton } from './components/LinkButton';
 import { ProfileHeader } from './components/ProfileHeader';

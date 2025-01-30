@@ -1,4 +1,4 @@
-import { Button } from '../../assets/styles/components/LinkButton/LinkButton.style';
+import { Button } from '../../styles/components/LinkButton/LinkButton.style';
 
 interface LinkButtonProps {
     link: string;

@@ -1,5 +1,5 @@
 import { ReactElement } from 'react';
-import { SocialMediaLink } from '../../../assets/styles/components/ProfileHeader/SocialMediaIcon/SocialMediaIcon.style';
+import { SocialMediaLink } from '../../../styles/components/ProfileHeader/SocialMediaIcon/SocialMediaIcon.style';
 
 interface SocialMediaIconProps {
     link: string;

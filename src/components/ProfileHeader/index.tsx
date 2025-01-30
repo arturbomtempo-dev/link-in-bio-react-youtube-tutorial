@@ -2,7 +2,7 @@ import { SlSocialGithub, SlSocialInstagram, SlSocialLinkedin } from 'react-icons
 import {
     ProfileContainer,
     SocialMediaIconsContainer,
-} from '../../assets/styles/components/ProfileHeader/ProfileHeader.style';
+} from '../../styles/components/ProfileHeader/ProfileHeader.style';
 import { SocialMediaIcon } from './SocialMediaIcon';
 
 export function ProfileHeader() {
