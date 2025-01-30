@@ -1,7 +1,8 @@
-import { LinksContainer, MainContainer } from './styles/pages/Home/Home.style';
 import { Footer } from './components/Footer';
 import { LinkButton } from './components/LinkButton';
 import { ProfileHeader } from './components/ProfileHeader';
+import { links } from './data/links';
+import { LinksContainer, MainContainer } from './styles/pages/Home/Home.style';
 
 export function App() {
     return (
@@ -9,23 +10,9 @@ export function App() {
             <MainContainer>
                 <ProfileHeader />
                 <LinksContainer>
-                    <LinkButton
-                        link="https://www.youtube.com/@ArturBomtempoDev"
-                        text="Acompanhe o canal do YouTube"
-                    />
-                    <LinkButton
-                        link="https://discord.gg/6gbYPRKx"
-                        text="Faça parte da nossa comunidade do Discord"
-                    />
-                    <LinkButton link="https://arturbomtempo.dev/" text="Acesse meu portfólio" />
-                    <LinkButton
-                        link="mailto:arturbcolen@gmail.com"
-                        text="Entre em contato comigo por e-mail"
-                    />
-                    <LinkButton
-                        link="https://open.spotify.com/user/ogddurx9hwlbmrom6wokt87je?si=95ba43077b9a42c3"
-                        text="Ouça minhas playlists no Spotify"
-                    />
+                    {links.map(({ id, link, text }) => (
+                        <LinkButton key={id} link={link} text={text} />
+                    ))}
                 </LinksContainer>
                 <Footer />
             </MainContainer>

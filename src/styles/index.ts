@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import { theme } from './theme';
 
 export const GlobalStyles = createGlobalStyle`
     * {
@@ -8,11 +9,11 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     :root {
-        --primary-color: #2cb67d;
-        --bg-color: #1e1e1e;
-        --secondary-bg-color: #2a2a2a;
-        --border-color: #3c3c3c;
-        --white-color: #ededed;
+        --primary-color: ${theme.primaryColor};
+        --bg-color: ${theme.bgColor};
+        --secondary-bg-color: ${theme.secondaryBgColor};
+        --border-color: ${theme.borderColor};
+        --white-color: ${theme.whiteColor};
     }
 
     body {
