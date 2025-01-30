@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const MainContainer = styled.section`
     border-radius: 5px;
-    margin: 0 4vw;
+    margin: 3vh 4vw;
     padding: 2em;
     background-color: var(--secondary-bg-color);
     color: var(--white-color);

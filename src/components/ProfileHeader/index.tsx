@@ -1,11 +1,4 @@
-import { BsEnvelope } from 'react-icons/bs';
-import { FaInstagram } from 'react-icons/fa6';
-import {
-    SlSocialGithub,
-    SlSocialInstagram,
-    SlSocialLinkedin,
-    SlSocialYoutube,
-} from 'react-icons/sl';
+import { SlSocialGithub, SlSocialInstagram, SlSocialLinkedin } from 'react-icons/sl';
 import {
     ProfileContainer,
     SocialMediaIconsContainer,

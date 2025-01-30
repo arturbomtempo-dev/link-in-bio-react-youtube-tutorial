@@ -17,10 +17,15 @@ export const GlobalStyles = createGlobalStyle`
 
     body {
         font-family: 'Inter', sans-serif;
-        height: 100vh;
+        min-height: 100vh;
         background-color: var(--bg-color);
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    ::selection {
+        background-color: var(--primary-color);
+        color: var(--white-color);
     }
 `;

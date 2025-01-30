@@ -1,4 +1,5 @@
 import { LinksContainer, MainContainer } from './assets/styles/pages/Home/Home.style';
+import { Footer } from './components/Footer';
 import { LinkButton } from './components/LinkButton';
 import { ProfileHeader } from './components/ProfileHeader';
 
@@ -26,6 +27,7 @@ export function App() {
                         text="Ouça minhas playlists no Spotify"
                     />
                 </LinksContainer>
+                <Footer />
             </MainContainer>
         </>
     );
