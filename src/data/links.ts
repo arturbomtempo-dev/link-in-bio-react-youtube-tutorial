@@ -20,5 +20,5 @@ export const links: LinkItem[] = [
     { id: 5, link: 'https://materials.arturbomtempo.dev/', text: 'Meus Materiais' },
     { id: 6, link: 'https://www.npmjs.com/~arturbomtempo', text: 'Perfil no NPM' },
     { id: 7, link: 'mailto:arturbcolen@gmail.com', text: 'E-mail' },
-    { id: 8, link: 'mailto:https://orcid.org/0009-0006-2046-455X', text: 'OrcID' },
+    { id: 8, link: 'https://orcid.org/0009-0006-2046-455X', text: 'OrcID' },
 ];
